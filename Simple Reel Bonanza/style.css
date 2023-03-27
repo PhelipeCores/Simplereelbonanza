@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Tahoma&display=swap');
+
+* { 
+
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  
+  font-family: 'Press Start 2P', PTSerif;
+  color: #e7e7e7;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #ffffff;
+}
+
+main {
+  height: 30vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 50rem;
+  font-size: 2rem;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 70%;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  position: absolute;
+  width: 40%;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.number {
+  background: url(reels.png);
+  background-repeat: no-repeat;
+  color: #000000;
+  font-size: 7rem;
+  width: 70rem;
+  padding: 6rem 11rem;
+  text-align:justify;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 80%);
+}
+
+
+
+
+
+
+
+.spin  {
+ 
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 150px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  border-radius: 100px;
+  position: absolute;
+  bottom: 20rem;
+  right:110rem;
+  background:url(spinn.png);
+  
+  
+  
+  
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.message {
+   
+  margin-bottom: 10rem;
+  position: absolute;
+bottom: 18rem;
+    left: 140rem;
+
+    bottom: 20rem;
+    left: 10rem;
+}
+
+.win {
+   z-index: 1;
+   size: 30px;
+  margin-bottom:10px;
+   position:absolute;
+    bottom: 30rem;
+    left: 60rem;
+    font-size: 40px;
+    font-family: Recoleta;
+    color: #ffffff;
+    
+     height: 20vh;
+      justify-content: center;
+  align-items: center;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+
+.autoPlay{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  border-radius: 150px;
+  position: absolute;
+  bottom: 30rem;
+  right: 140rem;
+   background:url(Autoplay.png);
+
+}
+
+.background {
+
+  z-index: 0;
+  width: 150%;
+  height: 100vh;
+  background-image: url(Bonanza.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top
+}
+
+.bet{
+  position:relative;
+  z-index: 1;
+border: 2px solid #020202;
+  margin-right: 60%;
+}
+
+.balance{
+  position:relative;
+  z-index: 1;
+  border: 2px solid #020202;
+  margin-right: 60%;
+}
+
+
